@@ -1,5 +1,5 @@
 --- // Configuration
-local ipr_job_bl = { --- // Les métiers qui ne seront pas affectés et qui garderont leur model spéciaux défini dans le fichier job !
+local ipr_job_bl = { --- // Les métiers qui ne seront pas affectés et qui garderont leur model spéciaux défini dans le fichier job du darkrp !
     ["Hobo"] = true,
     ["Pompier"] = true,
 }
