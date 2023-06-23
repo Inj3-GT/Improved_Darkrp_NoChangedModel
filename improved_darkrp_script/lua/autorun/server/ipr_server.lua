@@ -1,8 +1,9 @@
 --- // Configuration
 local ipr_job_bl = { --- // Les métiers qui ne seront pas affectés et qui garderont leur model spéciaux défini dans le fichier job !
     ["Hobo"] = true,
+    ["Pompier"] = true,
 }
-local ipr_mdl_c = { -- Les models randoms qui seront définis lors du changement de job sauf spécifer dans "ipr_job_bl".
+local ipr_mdl_c = { -- Les models randoms qui seront définis lors du changement de job pour tous les métiers sauf spécifer dans "ipr_job_bl".
     "models/player/combine_soldier_prisonguard.mdl",
     "models/player/group01/female_04.mdl",
 }
