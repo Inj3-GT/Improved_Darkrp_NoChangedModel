@@ -52,6 +52,7 @@ do
             ply:SetModel(ipr_c)
         end)
     end)
+    
     hook.Add("PlayerSpawn", "ipr_nochanged_death", function(ply)
         local ipr_c = ipr_m(ply, ply:Team())
 
