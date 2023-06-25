@@ -22,7 +22,7 @@ ipr_config.kp = true -- Garder la même tenue entre les changements de métier ?
 do
     local function ipr_m(p, o)
         if (ipr_config.kp) then
-            if (ipr_config.jb[team.GetName(o)]) then
+            if (ipr_config.jb[team.GetName(o)] and p.ipr_dkmdl) then
                 return p.ipr_dkmdl
             end
             p.ipr_dkmdl = p:GetModel()
