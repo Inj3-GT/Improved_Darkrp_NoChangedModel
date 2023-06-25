@@ -52,6 +52,17 @@ do
             ply:SetModel(ipr_c)
         end)
     end)
+    hook.Add("PlayerSpawn", "ipr_nochanged_death", function(ply)
+        local ipr_c = ipr_m(ply, ply:Team())
+
+        timer.Simple(0.01, function()
+            if not IsValid(ply) then
+                return
+            end
+            
+            ply:SetModel(ipr_c)
+        end)
+    end)
 end
 
 hook.Add("PlayerInitialSpawn", "ipr_nochanged_init", function(ply)
