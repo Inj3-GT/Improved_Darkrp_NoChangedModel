@@ -6,15 +6,15 @@
 local ipr_config = {}
 
 --- // Configuration
-ipr_config.jb = { --- // Les métiers qui ne seront pas affectés et qui garderont leurs models spéciaux définis dans le fichier job du darkrp !
+ipr_config.jb = { --- // Les métiers qui ne seront pas affectés et qui garderont leurs models spéciaux définis dans le fichier job du darkrp ! - Jobs that will not be affected and that will keep their special models defined in the darkrp job file!
     ["Hobo"] = true,
     ["Pompier"] = true,
 }
-ipr_config.md = { -- Les models randoms qui seront définis lors du changement de job // sauf spécifer dans "ipr_job_bl".
+ipr_config.md = { -- Les models randoms qui seront définis lors du changement de job // sauf spécifer dans "ipr_job_bl". - The randoms model that will be defined when changing jobs // unless specified in "ipr_job_bl".
     "models/player/combine_soldier_prisonguard.mdl",
     "models/player/group01/female_04.mdl",
 }
-ipr_config.kp = true -- Garder la même tenue entre les changements de métier ?
+ipr_config.kp = true -- Garder la même tenue entre les changements de métier ? - Keeping the same outfit between job changes?
 ---
 
 ---- Do not touch the code below
