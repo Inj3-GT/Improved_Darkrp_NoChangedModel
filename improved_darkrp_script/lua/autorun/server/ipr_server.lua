@@ -10,7 +10,7 @@ ipr_config.jb = { --- // Les métiers qui ne seront pas affectés et qui gardero
     ["Hobo"] = true,
     ["Pompier"] = true,
 }
-ipr_config.md = { -- Les models randoms qui seront définis lors du changement de job // sauf spécifer dans "ipr_job_bl". - The randoms model that will be defined when changing jobs // unless specified in "ipr_job_bl".
+ipr_config.md = { -- Les models randoms qui seront définis lors du changement de job // sauf spécifer dans "ipr_config.jb". - The randoms model that will be defined when changing jobs // unless specified in "ipr_config.jb".
     "models/player/combine_soldier_prisonguard.mdl",
     "models/player/group01/female_04.mdl",
 }
