@@ -15,7 +15,7 @@ ipr_config.md = { -- Les models randoms qui seront définis lors du changement d
     "models/player/group01/female_04.mdl",
 }
 ipr_config.kp = true -- Garder la même tenue entre les changements de métier ? - Keeping the same outfit between job changes?
----
+--- //
 
 ---- Do not touch the code below
 -- //
