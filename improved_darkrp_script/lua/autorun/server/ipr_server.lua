@@ -26,12 +26,11 @@ do
                 return p.ipr_dkmdl
             end
             p.ipr_dkmdl = p:GetModel()
+            
             return p.ipr_dkmdl
         else
             return table.Random(ipr_config.md)
         end
-
-        return p:GetModel()
     end
 
     local function ipr_d(o, n)
