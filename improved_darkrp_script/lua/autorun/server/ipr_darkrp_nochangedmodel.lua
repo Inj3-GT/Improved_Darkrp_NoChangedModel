@@ -2,7 +2,7 @@
 ----------- // SCRIPT BY INJ3 
 ----------- // SCRIPT BY INJ3 
 ----------- // https://steamcommunity.com/id/Inj3/
------------ https://github.com/Inj3-GT
+----------- v1.1 / https://github.com/Inj3-GT
 local ipr_config = {}
 
 --- // Configuration
