@@ -69,7 +69,7 @@ do
 end
 
 hook.Add("PlayerInitialSpawn", "Ipr_NCM:DarkRP_Init", function(ply)
-    timer.Simple(1, function()
+    timer.Simple(5, function()
         if not IsValid(ply) then
             return
         end
